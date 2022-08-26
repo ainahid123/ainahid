@@ -5,8 +5,700 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header class="sticky top-0">
+        <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-slate-100 mb-3">
+            <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+              <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+                <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase" href="#">
+                  ARIFUL ISLAM
+                </a>
+                <button id="more" class="lg:hidden"><img class="w-5" src="img/icon/bars-solid.svg" alt=""></button>
+              </div>
+              <!-- menu list -->
+              <div id="show" class="lg:flex hidden flex-grow items-center" id="example-navbar-warning">
+                <ul class="flex flex-col lg:flex-row list-none ml-auto">
+                    <li class="nav-item">
+                      <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snughover:opacity-75" href="#blog">
+                        Blog
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75" href="#about-me">
+                        About Me
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug  hover:opacity-75" href="#skills">
+                        Skills
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug  hover:opacity-75" href="#projects">
+                        Projects
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug  hover:opacity-75" href="#contuct">
+                        Contact
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug  hover:opacity-75" href="#resume">
+                        Resume
+                      </a>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+          </nav>
+      </header>
+  
+      <!--------------------  end of header ------------------------->
+
+
+      <!-------------------- start main section --------------------->
+
+      <main class="container mx-auto lg:px-20 px-4">
+        <section>
+            <div class="flex justify-center items-center flex-wrap my-5 border rounded">
+                <div class="lg:basis-1/4" >
+                    <img class="border-r lg" src="img/ainahid-4.jpg" alt="code">
+                </div>
+                <div class="lg:basis-3/4 py-10 lg:px-10 px-5">
+                        <h1 id="font3" class=text-lg>Hi, I'm <span id="font2" class="text-lg font-bold border-b text-rose-400">Ariful Islam</span> and I'm</h1>
+                        <h1 class="lg:text-3xl">a <span id="font1" class="lg:text-3xl text-lg font-bold text-slate-600">Junior Front-End Developer</span></h1>
+                        <p id="font-4" class="py-2 text-justify">It's been 2 years, I’m working as web developer.i have developed many website and also provided my services to college students by getting their projects ready ASAP as a freelancer.</p>
+                        <div class="mt-3">
+                            <button class="rounded bg-blue-500 text-white px-5 py-2 hover:bg-blue-500 m-1 font-semibold">Contuct</button>
+                            <button class="rounded border px-5 py-2 hover:bg-red-100 m-1 font-semibold">Resume</button>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------ strat about section ---------------------------->
+
+        <section id="about-me" class="mt-10">
+            <div>
+                <h1 class="text-3xl text-center font-bold my-5 lg:my-10 "><span class="border-b-4 border-rose-500 border-double px-1">ABOUT ME</span></h1>
+                <div class="flex flex-wrap">
+                    <!-- Who AM I -->
+                    <div class="lg:basis-1/2 basis-full lg:pr-10 mb-10">
+                        <h1 class="text-xl">WHO <span class="font-bold text-rose-400">AM I</span>?</h1>
+                        <p class="mb-3">Front-End Web Developer. It's been 2 years, I’m working as web developer.i have developed many website and also provided my services to college students by getting their projects ready ASAP as a freelancer I have been part of some very good web design projects.I'm also learning Back-End Development and looking forward to be a Full Stack Web Developer.</p>
+                        <p>Front-End Web Developer. It's been 2 years, I’m working as web developer.i have developed many website and also provided my services to college students.</p>
+                        <button class="px-5 py-2 hover:bg-red-300 border-2">Download</button>
+                    </div>
+                <!-- EXPERT IN -->
+                    <div class="lg:basis-1/2 basis-full lg:pl-10">
+                        <h1 class="text-xl">EXPERT <span class="font-bold text-rose-400">IN</span></h1>
+                        <div>
+                            <div>
+                                <div class="px-2 py-1">
+                                    <img class="w-5 inline-block" src="img/html5-brands.svg" alt="">
+                                    <p class="text-lg font-semibold inline px-2">HTML5</p>
+                                    <span class="font-semibold">Advanced &#8594;</span>
+                                    <span class="font-semibold">3 Years</span>
+                                </div>
+                                <div class="px-2 py-1">
+                                    <img class="w-5 inline-block" src="img/css3-alt-brands.svg" alt="">
+                                    <p class="text-lg font-semibold inline px-2">CSS3 </p>
+                                    <span class="font-semibold">Advanced &#8594;</span>
+                                    <span class="font-semibold">3 Years</span>
+                                </div>
+                                <div class="px-2 py-1">
+                                    <img class="w-5 inline-block" src="img/bootstrap-brands.svg" alt="">
+                                    <p class="text-lg font-semibold inline px-2">Botstrap</p>
+                                    <span class="font-semibold">Advanced &#8594;</span>
+                                    <span class="font-semibold">2 Years</span>
+                                </div>
+                                <div class="px-2 py-1"> 
+                                    <img class="w-5 inline-block" src="img/js-brands.svg" alt="">
+                                    <p class="text-lg font-semibold inline px-2">Javascript</p>
+                                    <span class="font-semibold">Intermediate &#8594;</span>
+                                    <span class="font-semibold">2 Years</span>
+                                </div>
+                                <div class="px-2 py-1">
+                                    <img class="w-5 inline-block" src="img/node-js-brands.svg" alt="">
+                                    <p class="text-lg font-semibold inline px-2">NodeJS</p>
+                                    <span class="font-semibold">Intermediate &#8594;</span>
+                                    <span class="font-semibold">1 Years</span>
+                                </div>
+                                <div class="px-2 py-2">
+                                    <img class="w-5 inline-block" src="img/react-brands.svg" alt="">
+                                    <p class="text-lg font-semibold inline px-2">ReactJS</p>
+                                    <span class="font-semibold">Intermediate &#8594;</span>
+                                    <span class="font-semibold">1 Years</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------ end of about section ---------------------------->
+
+
+        <!----------------------------- start skills section --------------------------->
+
+        <section id="skills" class="mt-10">
+            <div>
+                <h1 class="text-3xl font-bold text-center my-5"><span class="border-b-4 border-rose-500 border-double px-1">SKILLS</span></h1>
+                <div class="flex flex-wrap my-5">
+                    <!-- better in  -->
+                    <div class="lg:basis-1/2 basis-full mb-5">
+                        <h1 class="text-xl font-semibold">BETTER <span class="font-semibold text-rose-400">IN</span></h1>
+                        <div class="pl-5">
+                            <ul>
+                                <li class="list-disc">
+                                    <div>
+                                        <span class="text-lg font-bold">Adobe Photoshop</span>
+                                        <span class="font-semibold">Intermediate &#8594;</span>
+                                        <span class="font-semibold">2 Years</span>
+                                    </div>
+                                </li>
+                                <li class="list-disc">
+                                    <div>
+                                        <span class="text-lg font-bold">Adobe Ilustrator</span>
+                                        <span class="font-semibold">Basic &#8594;</span>
+                                        <span class="font-semibold">2 Years</span>
+                                    </div>
+                                </li>
+                                <li class="list-disc">
+                                    <div>
+                                        <span class="text-lg font-bold">Microsoft Office</span>
+                                        <span class="font-semibold">Intermediate &#8594;</span>
+                                        <span class="font-semibold">5 Years</span>
+                                    </div>
+                                </li>
+                                <li class="list-disc">
+                                    <div>
+                                        <span class="text-lg font-bold">Figma</span>
+                                        <span class="font-semibold">Intermediate &#8594;</span>
+                                        <span class="font-semibold">1 Years</span>
+                                    </div>
+                                </li>
+                                <li class="list-disc">
+                                    <div>
+                                        <span class="text-lg font-bold">Tailwind CSS</span>
+                                        <span class="font-semibold">Intermediate &#8594;</span>
+                                        <span class="font-semibold">1 Years</span>
+                                    </div>
+                                </li>
+                                <li class="list-disc">
+                                    <div>
+                                        <span class="text-lg font-bold">Git & Github</span>
+                                        <span class="font-semibold">Intermediate &#8594;</span>
+                                        <span class="font-semibold">1 Years</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- i am learning  -->
+                    <div class="lg:basis-1/2 basis-full lg:pl-10">
+                        <h1 class="text-xl font-semibold">I AM <span class="text-rose-400">LEARNING</span></h1>
+                        <div>
+                            <!-- skills -1  -->
+                            <div class="mb-0.5">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <span class="text-xs font-bold inline-block pb-0.5 uppercase">React Native Expo</span>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="text-xs font-bold inline-block text-slate-600">80%</span>
+                                    </div>
+                                </div>
+                                <div class="overflow-hidden h-2 text-xs flex  bg-slate-200">
+                                    <div style="width:80%" class="shadow-none bg-slate-500"></div>
+                                </div>
+                            </div>
+                            <!-- skills -2  -->
+                            <div class="mb-0.5">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <span class="text-xs font-bold inline-block pb-0.5 uppercase">MongoDB</span>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="text-xs font-bold inline-block text-slate-600">20%</span>
+                                    </div>
+                                </div>
+                                <div class="overflow-hidden h-2 text-xs flex  bg-slate-200">
+                                    <div style="width:20%" class="shadow-none bg-slate-500"></div>
+                                </div>
+                            </div>
+                            <!-- skills -3  -->
+                            <div class="mb-0.5">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <span class="text-xs font-bold inline-block pb-0.5 uppercase">Python</span>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="text-xs font-bold inline-block text-slate-600">50%</span>
+                                    </div>
+                                </div>
+                                <div class="overflow-hidden h-2 text-xs flex  bg-slate-200">
+                                    <div style="width:50%" class="shadow-none bg-slate-500"></div>
+                                </div>
+                            </div>
+                            <!-- skills -4  -->
+                            <div class="mb-0.5">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <span class="text-xs font-bold inline-block pb-0.5 uppercase">Django & Rest Framework</span>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="text-xs font-bold inline-block text-slate-600">60%</span>
+                                    </div>
+                                </div>
+                                <div class="overflow-hidden h-2 text-xs flex  bg-slate-200">
+                                    <div style="width:60%" class="shadow-none bg-slate-500"></div>
+                                </div>
+                            </div>
+                            <!-- skills -5  -->
+                            <div class="mb-0.5">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <span class="text-xs font-bold inline-block pb-0.5 uppercase">NextJS</span>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="text-xs font-bold inline-block text-slate-600">20%</span>
+                                    </div>
+                                </div>
+                                <div class="overflow-hidden h-2 text-xs flex  bg-slate-200">
+                                    <div style="width:20%" class="shadow-none bg-slate-500"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------- end of skills section --------------------->
+
+
+        <!--------------------- start of projects section ----------------->
+        <section id="projects" class="mt-10">
+            <h1 class="text-3xl font-bold text-center my-10"><span class="border-b-4 border-rose-400 border-double">PROJECTS</span></h1>
+            <div class="flex flex-wrap justify-between">
+                <!-- projects ----1 -->
+                <div class="lg:basis-1/3 my-1 p-1">
+                    <div class="border rounded">
+                        <img src="img/project/p-1.jpg" alt="">
+                        <div class="px-5 py-3 font-mono">
+                            <h1 class="text-lg font-bold">E-Commerce Landing Page</h1>
+                            <span class="px-2 border rounded font-medium text-slate-500">HTML5</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">CSS3</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">BOOSTRAP</span>
+                            <div class="mt-2">
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Github</button>
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Live Site</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- projects ----2 -->
+                <div class="lg:basis-1/3 p-1 my-1">
+                    <div class="border rounded">
+                        <img src="img/project/p-2.jpg" alt="">
+                        <div class="px-5 py-3 font-mono">
+                            <h1 class="text-lg font-bold">Newsportal Home Page</h1>
+                            <span class="px-2 border rounded font-medium text-slate-500">HTML5</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">CSS3</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">BOOSTRAP</span>
+                            <div class="mt-2">
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Github</button>
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Live Site</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- projects ----3 -->
+                <div class="lg:basis-1/3 p-1 my-1">
+                    <div class="border rounded">
+                        <img class="w-100" src="img/project/p-3.jpg" alt="">
+                        <div class="px-5 py-3 font-mono">
+                            <h1 class="text-lg font-bold">Social Media Site</h1>
+                            <span class="px-2 border rounded font-medium text-slate-500">HTML5</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">CSS3</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">BOOSTRAP</span>
+                            <div class="mt-2">
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Github</button>
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Live Site</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- projects ----4 -->
+                <div class="lg:basis-1/3 p-1 my-1">
+                    <div class="border rounded">
+                        <img class="w-100" src="img/project/p-4.jpg" alt="">
+                        <div class="px-5 py-3 font-mono">
+                            <h1 class="text-lg font-bold">Dashboard</h1>
+                            <span class="px-2 border rounded font-medium text-slate-500">HTML5</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">CSS3</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">Javascipt</span>
+                            <div class="mt-2">
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Github</button>
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Live Site</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- projects ----5 -->
+                <div class="lg:basis-1/3 p-1 my-1">
+                    <div class="border rounded">
+                        <img class="w-100" src="img/project/p-5.jpg" alt="">
+                        <div class="px-5 py-3 font-mono">
+                            <h1 class="text-lg font-bold">Weather App</h1>
+                            <span class="px-2 border rounded font-medium text-slate-500">HTML5</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">CSS3</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">Javascipt</span>
+                            <div class="mt-2">
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Github</button>
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Live Site</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- projects ----6 -->
+                <div class="lg:basis-1/3 p-1 my-1">
+                    <div class="border rounded">
+                        <img class="w-100" src="img/project/p-6.jpg" alt="">
+                        <div class="px-5 py-3 font-mono">
+                            <h1 class="text-lg font-bold">Personal Blog</h1>
+                            <span class="px-2 border rounded font-medium text-slate-500">HTML5</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">CSS3</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">Python</span>
+                            <span class="px-2 border rounded font-medium text-slate-500">Django</span>
+                            <div class="mt-2">
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Github</button>
+                                <button class="px-5 py-1 bg-blue-500 font-bold text-white">Live Site</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------- end projects section  ------------------>
+
+
+        <!---------------- start blog section --------------------->
+
+        <section id="blog" class="mt-10">
+            <h1 class="text-3xl font-bold my-5 text-center"><span class="border-b-4 border-double border-rose-400">POPULAR BLOG</span></h1>
+            <div class="flex flex-wrap">
+                <!-- blog items -----1 -->
+                <div class="lg:basis-2/4 p-1">
+                    <div class="border rounded flex items-center">
+                        <div class=" w-100 basis-1/4">
+                            <img class="w-100" src="img/blog/b-1.jpg" alt="">
+                        </div>
+                        <div class="px-3 basis-3/4 py-2">
+                            <p class="text-lg font-medium mb-3">Why Java Script is Popular</p>
+                            <a class="text-xs px-3 py-1 bg-slate-500 text-white font-bold rounded" href="https://www.geeksforgeeks.org/javascript/" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog items -----2 -->
+                <div class="lg:basis-2/4 p-1">
+                    <div class="border rounded flex items-center">
+                        <div class="w-100 basis-1/4">
+                            <img class="w-100" src="img/blog/b-2.jpg" alt="">
+                        </div>
+                        <div class="px-3 basis-3/4 py-2">
+                            <p class="text-lg font-medium mb-3">Why Java Script is Popular</p>
+                            <a class="text-xs px-3 py-1 bg-slate-500 text-white font-bold rounded" href="https://www.geeksforgeeks.org/javascript/" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog items -----3 -->
+                <div class="lg:basis-2/4 p-1">
+                    <div class="border rounded flex items-center">
+                        <div class=" w-100 basis-1/4">
+                            <img class="w-100" src="img/blog/b-3.jpg" alt="">
+                        </div>
+                        <div class="px-3 basis-3/4 py-2">
+                            <p class="text-lg font-medium mb-3">Why Java Script is Popular</p>
+                            <a class="text-xs px-3 py-1 bg-slate-500 text-white font-bold rounded" href="https://www.geeksforgeeks.org/javascript/" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog items -----4 -->
+                <div class="lg:basis-2/4 p-1">
+                    <div class="border rounded flex items-center">
+                        <div class=" w-100 basis-1/4">
+                            <img class="w-100" src="img/blog/b-4.jpg" alt="">
+                        </div>
+                        <div class="px-3 basis-3/4 py-2">
+                            <p class="text-lg font-medium mb-3">Why Java Script is Popular</p>
+                            <a class="text-xs px-3 py-1 bg-slate-500 text-white font-bold rounded" href="https://www.geeksforgeeks.org/javascript/" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog items -----5 -->
+                <div class="lg:basis-2/4 p-1">
+                    <div class="border rounded flex items-center">
+                        <div class=" w-100 basis-1/4">
+                            <img class="w-100" src="img/blog/b-5.jpg" alt="">
+                        </div>
+                        <div class="px-3 basis-3/4 py-2">
+                            <p class="text-lg font-medium mb-3">Why Java Script is Popular</p>
+                            <a class="text-xs px-3 py-1 bg-slate-500 text-white font-bold rounded" href="https://www.geeksforgeeks.org/javascript/" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog items -----6 -->
+                <div class="lg:basis-2/4 p-1">
+                    <div class="border rounded flex items-center">
+                        <div class=" w-100 basis-1/4">
+                            <img class="w-100" src="img/blog/b-6.jpg" alt="">
+                        </div>
+                        <div class="px-3 basis-3/4 py-2">
+                            <p class="text-lg font-medium mb-3">Why Java Script is Popular</p>
+                            <a class="text-xs px-3 py-1 bg-slate-500 text-white font-bold rounded" href="https://www.geeksforgeeks.org/javascript/" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------- end of blog section -------------------->
+
+
+        <!---------------------- start favourite books section  ----------->
+ 
+        <section class="mt-10">
+            <div>
+                <h1 class="text-3xl font-bold text-center my-5"><span class="border-b-4 border-double border-rose-400">FAVOURITE BOOK</span></h1>
+                <div class="flex flex-wrap">
+                    <!-- i have read  -->
+                    <div class="lg:basis-1/2 basis-full">
+                        <h1 class="text-lg font-semibold py-2">I HAVE <span class="text-rose-500">READ</span></h1>
+                        <div class="flex flex-wrap items-center justify-evenly">
+                            <!-- book list -1  -->
+                            <div class="basis-1/2 px-1 mb-2">
+                               <div class="border lg:flex lg:items-center">
+                                    <img class="lg:w-1/2 lg:basis-2/4" src="img/book/b-1.jpg" alt="">
+                                    <div class="px-5 lg:p-0 lg:bbasis-2/4">
+                                        <p class="font-bold">Dopamin Detox</p>
+                                        <p class="font-semibold text-slate-400">Thibaut Meurisse</p>
+                                        <spn class="px-3 p-1 text-center font-bold border rounded-lg my-2 inline-block text-white bg-green-400">Complete</spn>
+                                    </div>
+                               </div>
+                            </div>
+                            <!-- book list -2  -->
+                            <div class="basis-1/2 px-1 mb-2">
+                               <div class="border lg:flex lg:items-center">
+                                    <img class="lg:w-1/2 lg:basis-2/4" src="img/book/b-2.jpg" alt="">
+                                    <div class="px-5 lg:p-0 lg:basis-2/4">
+                                        <p class="font-bold">Steal Like an Artist</p>
+                                        <p class="font-semibold text-slate-400">Austin Kleon</p>
+                                        <spn class="px-3 p-1 text-center font-bold border rounded-lg my-2 inline-block text-white bg-green-400">Complete</spn>
+                                    </div>
+                               </div>
+                            </div>
+                            <!-- book list -3  -->
+                            <div class="basis-1/2 px-1 mb-2">
+                               <div class="border lg:flex lg:items-center">
+                                    <img class="lg:w-1/2 lg:basis-2/4" src="img/book/b-7.jpg" alt="">
+                                    <div class="px-5 lg:p-0 lg:basis-2/4">
+                                        <p class="font-bold">The Alchemist</p>
+                                        <p class="font-semibold text-slate-400">Paulo Coelho</p>
+                                        <spn class="px-3 p-1 text-center font-bold border rounded-lg my-2 inline-block text-white bg-green-400">Complete</spn>
+                                    </div>
+                               </div>
+                            </div>
+                            <!-- book list -4 -->
+                            <div class="basis-1/2 px-1 mb-2">
+                               <div class="border lg:flex lg:items-center">
+                                    <img class="lg:w-1/2 lg:basis-2/4" src="img/book/b-10.jpg" alt="">
+                                    <div class="px-5 lg:p-0 lg:basis-2/4">
+                                        <p class="font-bold">The First Muslim</p>
+                                        <p class="font-semibold text-slate-400">Lesley Hazleton</p>
+                                        <spn class="px-3 p-1 text-center font-bold border rounded-lg my-2 inline-block text-white bg-green-400">Complete</spn>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- i have been rading  -->
+                    <div class="lg:basis-1/2 lg:pl-10 basis-full">
+                        <h1 class="text-lg font-semibold py-2">I HAVE BEEN <span class="text-rose-500">READING</span></h1>
+                        <div>
+                            <!-- book list -1 -->
+                            <div class="px-1 mb-2">
+                                <div class="border lg:flex lg:items-center">
+                                     <img class="lg:w-1/2 lg:basis-2/4" src="img/book/b-4.jpg" alt="">
+                                     <div class="px-5 lg:p-0 lg:basis-2/4">
+                                         <p class="font-bold">Eat That Frog</p>
+                                         <p class="font-semibold text-slate-400">Brian Tracy</p>
+                                         <spn class="px-3 p-1 text-center font-bold border rounded-lg my-2 inline-block text-white bg-rose-400">Reading</spn>
+                                     </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------- end of book section --------------------->
+
+
+        <!--------------------- start hobbies section -------------------->
+
+        <section class="mt-10">
+            <div>
+                <h1 class="text-3xl font-bold text-center my-5"><span  class="border-b-4 border-double border-rose-400">HOBBIES</span></h1>
+                <div class="">
+                    <div class="text-lg font-bold text-slate-600">Hobbies & Interests</div>
+                    <div>
+                        <ul class="list-disc px-5 text-lg">
+                            <li>Sports: In my free time I frequently play cricket. I like many other sports like watching football. </li>
+                            <li>Blogging About Tech: It is the best way to spread knowledge and to know from others.</li>
+                            <li>Traveling: Sometimes when I got more stressed then I go to explore nature. Mostly I prefer wildlife sanctuaries, hill tracks, and sea beaches.</li>
+                            <li>Reading Book: Most of the time when I have to choose a book I take a Non-Fiction or self-help Book. It helps me to develop myself and spread my thought.</li>
+                            <li>Food: At the weekend I give myself a reward with delicious food in a restaurant. and really I am a food lover mostly I prefer healthy food than delicious.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------ end of hobbies section ------------------ -->
+
+
+        <!-------------------------- start contact form  ----------------------->
+
+        <section id="contuct">
+            <div>
+                <h1 class="text-3xl my-10 text-center font-bold"><span class="border-b-4 border-double border-rose-400">CONTACT</span></h1>
+                <div class="flex items-center justify-center">
+                    <form class="w-full max-w-5xl">
+                        <div class="flex flex-wrap -mx-3 mb-6">
+                          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                              First Name
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane" required>
+                          </div>
+                          <div class="w-full md:w-1/2 px-3">
+                            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                              Last Name
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe" required>
+                          </div>
+                        </div>
+                        <div class="flex flex-wrap -mx-3 mb-6">
+                          <div class="w-full px-3">
+                            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                              E-mail
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
+                          </div>
+                        </div>
+                        <div class="flex flex-wrap -mx-3 mb-3">
+                          <div class="w-full px-3">
+                            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                              Message
+                            </label>
+                            <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+                          </div>
+                        </div>
+                        <div class="md:flex md:items-center">
+                          <div class="md:w-1/3">
+                            <button class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+                              Send
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------- end of contuct form section ------------------------- -->
+
+
+        <!------------------------- start social media section --------------------------- -->
+
+        <section id="social" class="my-5">
+            <div>
+                <h1 class="text-3xl text-center font-bold my-5">SOCIAL LINKS</h1>
+                <div class="flex flex-wrap items-center justify-center">
+                    <div class="p-1">
+                        <a href="https://github.com/ainahid123" target="_blank">
+                            <img class="w-10" src="img/icon/square-github-brands.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="p-1">
+                        <a href="https://linkedin.com/in/ainahid" target="_blank">
+                            <img class="w-10" src="img/icon/linkedin-brands.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="p-1">
+                        <a href="https://facebook.com/ainahid1999" target="_blank">
+                            <img class="w-10" src="img/icon/square-facebook-brands.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="p-1">
+                        <a href="https://www.instagram.com/ainahid1999" target="_blank">
+                            <img class="w-10" src="img/icon/square-instagram-brands.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="p-1">
+                        <a href="#" target="_blank">
+                            <img class="w-10" src="img/icon/square-twitter-brands.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="p-1">
+                        <a href="#" target="_blank">
+                            <img class="w-10" src="img/icon/youtube-brands.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <footer class=" border-t py-20 bg-slate-100">
+        <div class="flex flex-col flex-wrap items-center justify-center">
+           <div>
+                <p class="text-center">Copywrite &copy; 2022 <strong>Ariful Islam</strong></p>
+           </div>
+           <div>
+                <ul class="flex flex-wrap">
+                    <li class="px-3 py-1">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li class="px-3 py-1">
+                        <a href="#blog">BLOG</a>
+                    </li>
+                    <li class="px-3 py-1">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">SERVICE</a>
+                    </li>
+                    <li class="px-3 py-1">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">CONTACT</a>
+                    </li>
+                    <li class="px-3 py-1">
+                        <a href="#social">SOCIAL</a>
+                    </li>
+                </ul>
+           </div>
+        </div>
+      </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

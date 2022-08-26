@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600&family=Kreon:wght@300;400;500&family=Lobster&family=Lobster+Two&family=M+PLUS+1+Code:wght@500&family=M+PLUS+Code+Latin:wght@400;600&family=Oleo+Script&family=Oleo+Script+Swash+Caps:wght@400;700&family=Passion+One:wght@400;700;900&family=Ropa+Sans&family=Slabo+27px&family=Source+Code+Pro:wght@400;500&family=Teko:wght@400;500&display=swap');
+
+/* 
+
+font-family: 'Fira Code', monospace;
+font-family: 'Kreon', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'M PLUS Code Latin', sans-serif;
+font-family: 'Oleo Script', cursive;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Passion One', cursive;
+font-family: 'Ropa Sans', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Teko', sans-serif; 
+
+*/
+
+#font1{
+    font-family: 'Fira Code', monospace;
+}
+
+#font2{
+    font-family: 'Fira Code', monospace;
+}
+
+#font3{
+    font-family: 'M PLUS 1 Code', sans-serif; 
+}
+
+#font-4{
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
